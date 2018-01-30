@@ -1,0 +1,92 @@
+/* custom style here */
+
+/* BTN'S */
+
+.login .bo-btn-submit { /* bo3 submit button. Maybe in the future #wink */
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000 !important;
+	font-weight: 700;
+	border-radius: 0 !important;
+}
+
+/* SYS-LOGIN */
+
+.login {
+	background-image: none !important; /* login page background remove */
+	background-color: #000; /* login page background color */
+}
+
+.login .navbar.navbar-default.navbar-fixed-top {
+	background-color: rgba(255,255,255,0.3) !important; /* info bar background */
+}
+
+.login .form , .login .message {
+	border-radius: 0;
+}
+
+/*** if you don't like the right message on the right column you can remove it by uncoment the section bellow. Don't forget to read the instructions  ***/
+
+/* GOODBYE MESSAGE */
+/*
+.login .message {
+	display: none;
+}
+*/
+
+/* ajust the form position only with css. the calc comes from the box width. */
+/*
+.login .form {
+position: absolute;
+margin-left: 0 !important;
+left: calc(50% - 194px);
+border-radius: 0 !important;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24) !important;
+}
+*/
+
+.login .password input.bo-showPassword {
+	width: auto;
+}
+
+.login .password .bo-showPassword-text {
+	vertical-align: top;
+}
+
+.login .img img {
+	background: #000 !important; /* background color of the circle around the image */
+	box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login .wrapper {
+	height: calc(50vh - 260px) !important;
+}
+
+.login .password input,
+.login .name input {
+	border-bottom: 2px solid #000 !important; /* bottom border color */
+}
+
+/* HOME */
+
+/* don't like the info we got to show you? just uncoment the section bellow */
+
+/*
+.changelog {
+	display: none;
+}
+*/
+
+#bo-topbar {
+	background-color: #000; /* top bar background */
+	background-image: none !important;
+	border-color: #000 !important; /* top border color */
+}
+
+#bo-topbar > .container-fluid {
+	background: none !important;
+}
+
+#bo-menu .bo-block-list {
+	background-color: #000;
+}
