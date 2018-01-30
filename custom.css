@@ -22,7 +22,7 @@
 }
 
 .login .form , .login .message {
-	border-radius: 0;
+	border-radius: 0 !important;
 }
 
 /*** if you don't like the right message on the right column you can remove it by uncoment the section bellow. Don't forget to read the instructions  ***/
